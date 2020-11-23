@@ -1,0 +1,59 @@
+$var-aqua-blue: #12c2e9;
+body {
+    background-blend-mode: multiply;
+    background-image: linear-gradient(to bottom, #111, #111);
+    color: #fff;
+}
+
+.container-custom {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+.wr-intro-section {
+    position: relative;
+    text-align: center;
+    h3 {
+        font-family: "Lato-Semibold";
+        font-size: 18px;
+        color: #12c2e9;
+        line-height: 1.33;
+        letter-spacing: 0.9px
+    }
+    p {
+        margin: 0 auto;
+        padding-bottom: 17px;
+        font-family: "Lato-Bold";
+        font-size: 30px;
+        line-height: 0.8;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+}
+
+.wr-intro-section::after {
+    content: "";
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 2px;
+    background-blend-mode: multiply;
+    background-image: linear-gradient(to top, #e100ff, #f80759);
+}

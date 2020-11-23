@@ -1,0 +1,43 @@
+    .wr-call-today {
+        background-image: url("../img/background/background-call.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 5.4%;
+        height: 70vh;
+        .wr-intro-section {
+            p {
+                font-size: 48px;
+                line-height: 0.7;
+            }
+        }
+        .wr-intro-section::after {
+            display: none;
+        }
+    }
+    
+    .text-call {
+        font-family: "Lato-Regular";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 3.4%;
+        p {
+            font-size: 18px;
+            line-height: 1.67;
+            max-width: 615px;
+        }
+        a {
+            font-size: 16px;
+            line-height: 1.5;
+            border-radius: 5px;
+            border: solid 2px #f80759;
+            margin-top: 4.8%;
+            padding: 12px 40px;
+        }
+        a:hover {
+            background-blend-mode: multiply;
+            background-image: linear-gradient(to top, #e100ff, #f80759);
+        }
+    }

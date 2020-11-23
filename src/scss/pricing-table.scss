@@ -1,0 +1,67 @@
+.wr-pricing-table {
+    margin-top: 15%;
+    height: 112.5vh;
+    .container-custom {
+        font-family: "Lato-Regular";
+    }
+    .wr-plans {
+        display: flex;
+        margin-top: 4%;
+        justify-content: space-between;
+    }
+    .plans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: solid 2px #222;
+        width: 31.5%;
+        h3 {
+            font-size: 24px;
+            letter-spacing: 1.2px;
+            text-align: center;
+            span {
+                font-size: 48px;
+            }
+        }
+        h4 {
+            font-size: 18px;
+            line-height: 1.33;
+            background-color: #262424;
+            width: 100%;
+            padding: 3.5% 0;
+            margin-top: 2.5%;
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.7px;
+            margin: 2.7% 0 0 0;
+        }
+        p:last-of-type {
+            max-width: 162px;
+            margin-top: .4%;
+        }
+        a {
+            padding: 11px 38px;
+            margin-top: 11%;
+            margin-bottom: 11%;
+            border: solid 2px #222;
+            font-size: 12px;
+            line-height: 2;
+            letter-spacing: .6px;
+        }
+        a:hover {
+            background-blend-mode: multiply;
+            background-image: linear-gradient(to top, #e100ff, #f80759);
+        }
+    }
+    .plans:hover {
+        border: solid 2px $var-aqua-blue;
+        h4 {
+            background-color: transparent;
+            background-blend-mode: multiply;
+            background-image: linear-gradient(to top, #e100ff, #f80759);
+        }
+    }
+}

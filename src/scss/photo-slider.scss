@@ -1,0 +1,16 @@
+.wr-photo-slider {
+    overflow: hidden;
+    margin-top: 7%;
+    .slider-item {
+        img {
+            width: 100%;
+        }
+    }
+    .slider {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .slick-slide {
+        margin: 0 15px;
+    }
+}
