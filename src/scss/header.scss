@@ -6,10 +6,9 @@
     background-size: cover;
     background-position: center;
     font-family: "Lato-Heavy";
-    text-align: left;
 }
 
-.wr-header {
+header {
     position: fixed;
     top: 26px;
     z-index: 50;
@@ -29,7 +28,7 @@
     display: flex;
     align-items: center;
     li {
-        margin-left: 31.5px;
+        margin-left: 32px;
     }
     a {
         font-family: "Lato-Regular";
@@ -41,24 +40,25 @@
     a:hover {
         color: #f80759;
     }
+    a:active {
+        color: #f80759;
+    }
 }
 
 .banners-content {
     margin-top: 22.6%;
+    max-width: 615px;
     h1 {
-        max-width: 615px;
         color: #12c2e9;
         font-size: 48px;
         text-transform: uppercase;
         margin: 0;
         span {
             font-size: 60px;
-            text-transform: uppercase;
             color: #fff;
         }
     }
     p {
-        max-width: 610px;
         line-height: 1.5;
         font-size: 16px;
         font-family: "Lato-Regular";

@@ -1,6 +1,5 @@
 .wr-news {
     background-color: #161616;
-    height: 124vh;
     .container-custom {
         padding-top: 5.1%;
     }
@@ -53,25 +52,24 @@
         max-width: 227px;
         padding: 10.4% 0 0 8%;
     }
-    .date-and-like {
+}
+
+.date-and-like {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2.6%;
+    p {
         display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin-top: 2.6%;
-        padding-bottom: 12%;
-        p {
-            display: flex;
-            color: $var-aqua-blue;
-            font-family: "Lato-Semibold";
-            font-size: 14px;
-            line-height: 1.71;
-            align-items: center;
-            svg {
-                padding-left: 3px;
-                fill: $var-aqua-blue;
-                width: 16px;
-                height: 15px;
-            }
+        color: $var-aqua-blue;
+        font-family: "Lato-Semibold";
+        font-size: 14px;
+        line-height: 1.71;
+        align-items: center;
+        svg {
+            fill: $var-aqua-blue;
+            width: 16px;
+            height: 15px;
         }
     }
 }

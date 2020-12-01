@@ -1,6 +1,4 @@
 .wr-pricing-table {
-    margin-top: 15%;
-    height: 112.5vh;
     .container-custom {
         font-family: "Lato-Regular";
     }
@@ -32,20 +30,25 @@
             padding: 3.5% 0;
             margin-top: 2.5%;
         }
-        p {
+        ul {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        li {
             font-size: 14px;
             line-height: 1.71;
             letter-spacing: 0.7px;
             margin: 2.7% 0 0 0;
         }
-        p:last-of-type {
+        li:last-of-type {
             max-width: 162px;
             margin-top: .4%;
         }
         a {
             padding: 11px 38px;
             margin-top: 11%;
-            margin-bottom: 11%;
             border: solid 2px #222;
             font-size: 12px;
             line-height: 2;
