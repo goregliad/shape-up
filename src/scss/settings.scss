@@ -1,4 +1,8 @@
 $var-aqua-blue: #12c2e9;
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-blend-mode: multiply;
     background-image: linear-gradient(to bottom, #111, #111);
@@ -65,4 +69,8 @@ a:visited {
     height: 2px;
     background-blend-mode: multiply;
     background-image: linear-gradient(to top, #e100ff, #f80759);
+}
+
+.backlight-links {
+    color: $var-aqua-blue;
 }
