@@ -65,6 +65,9 @@
            margin: 0 auto;
            margin-top: 3%;
        }
+       .wr-trainers {
+           padding-bottom: 8%;
+       }
        .wr-trainers-photo {
            flex-wrap: wrap;
            justify-content: space-evenly;
@@ -88,7 +91,7 @@
            }
        }
        .programs-items {
-           max-width: 50%;
+           max-width: 40%;
        }
        .programs-items:nth-child(3) {
            margin-top: 5%;
@@ -98,9 +101,6 @@
            .text-items {
                max-width: 100%;
            }
-       }
-       .wr-news {
-           height: 225vh;
        }
        .wr-post {
            flex-wrap: wrap;
@@ -163,7 +163,6 @@
            }
        }
        .wr-pricing-table {
-           height: 182vh;
            .wr-plans {
                flex-wrap: wrap;
                justify-content: space-around;
@@ -284,7 +283,8 @@
            transition: .4s;
        }
        .header-menu.active-burger {
-           top: 40px;
+           top: 0;
+           padding-top: 90px;
            transition: .4s;
        }
        .banners-content {
@@ -410,6 +410,11 @@
        .nav-footer {
            display: none;
        }
+       .wr-cliets-slider {
+           .slick-dots {
+               bottom: -20px;
+           }
+       }
    }
    
    @media (max-width:490px) {
@@ -465,7 +470,7 @@
        }
        .wr-cliets-slider {
            .slick-dots {
-               bottom: -1px;
+               bottom: -25px;
            }
        }
        .wr-trainers-photo {
@@ -494,6 +499,9 @@
                p {
                    font-size: 36px;
                }
+               a {
+                   font-size: 36px;
+               }
            }
        }
        .wr-quick-contact {
@@ -510,7 +518,6 @@
        #hide-banners {
            background-color: #161616;
            background-image: none;
-           height: 120vh;
        }
        #reviews {
            background-color: #161616;
@@ -519,7 +526,6 @@
        #hide-call {
            background-color: #161616;
            background-image: none;
-           height: 80vh;
        }
    }
    
@@ -533,11 +539,16 @@
        }
    }
    
-   @media (max-width:330px) {
+   @media (max-width:340px) {
        .about-slider-for {
            max-width: 290px;
        }
        .wr-pricing-table .plans {
            width: 95%;
+       }
+       .link-group {
+           a:last-child {
+               display: none;
+           }
        }
    }

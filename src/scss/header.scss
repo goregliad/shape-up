@@ -6,6 +6,10 @@
     background-size: cover;
     background-position: center;
     font-family: "Lato-Heavy";
+    .container-custom {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 header {
@@ -69,7 +73,7 @@ header {
     margin-top: 25px;
     display: flex;
     a:last-child {
-        margin-left: 2%;
+        margin-left: 3%;
     }
     a {
         border-radius: 5px;

@@ -1,4 +1,5 @@
 footer {
+    padding-top: 77px;
     .container-custom {
         display: flex;
         justify-content: space-between;
@@ -26,9 +27,10 @@ footer {
 }
 
 .nav-footer {
+    padding: 14px;
+    margin-top: 42px;
     background-blend-mode: multiply;
     background-image: linear-gradient(to top, #e100ff, #f80759);
-    margin-top: 3.8%;
     display: flex;
     justify-content: center;
     ul {
@@ -55,7 +57,7 @@ footer {
         line-height: 1.88;
         text-align: left;
         color: #bdc3c7;
-        margin-top: 11%;
+        margin-top: 19px;
         margin-bottom: 0;
     }
     p:last-of-type {

@@ -3,6 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 20px;
+    padding-bottom: 45px;
     .container-custom {
         padding-top: 4.9%;
     }
@@ -18,6 +20,11 @@
     }
     .slick-slide {
         margin: 0 18px;
+        .slick-active {
+            li {
+                background-color: $var-aqua-blue;
+            }
+        }
     }
     .slick-list {
         margin-left: -4px;
@@ -26,15 +33,15 @@
     .slick-dots {
         bottom: 7px;
         position: absolute;
-        li {
+        button:before {
             height: 14px;
             width: 14px;
             background-color: #fff;
             border-radius: 50%;
         }
-        li:hover {
-            background-color: $var-aqua-blue;
-        }
+    }
+    .slick-active button:before {
+        background-color: $var-aqua-blue;
     }
 }
 
