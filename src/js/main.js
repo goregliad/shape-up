@@ -82,10 +82,3 @@ openBurger.addEventListener('click', function() {
     menuBurger.classList.toggle('active-burger');
     bodyOverflow.classList.toggle('lock');
 });
-
-
-// let closeMenu = document.querySelectorAll('.header-list-item');
-// closeMenu.addEventListener('click', function() {
-//     openBurger.classList.remove('.active-burger');
-//     menuBurger.classList.remove('.active-burger');
-// });

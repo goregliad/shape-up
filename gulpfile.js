@@ -16,14 +16,14 @@ let path = {
         html: source_folder + "/*.html",
         css: source_folder + "/scss/main.scss",
         js: source_folder + "/js/*.js",
-        img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
+        img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp,mp4}",
         fonts: source_folder + "/fonts/*.{ttf,woff,woff2}",
     },
     watch: {
         html: source_folder + "/**/*.html",
         css: source_folder + "/scss/**/*.scss",
         js: source_folder + "/js/**/*.js",
-        img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
+        img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp,mp4}",
     },
     clean: "./" + project_folder + "/"
 }
